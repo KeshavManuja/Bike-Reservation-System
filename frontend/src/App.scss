@@ -1,0 +1,119 @@
+@import '~antd/dist/antd.css';
+// colors
+$form-background: #00FFFFFF;
+$submit-background: #FF69B4FF;
+$white: #fff;
+
+$yellow: #F8F9D7;
+$very-light-blue: #C4D7E0;
+$light-blue: #B2C8DF;
+$blue: #6E85B7;
+
+// signup
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .signup-form {
+    background-color: $form-background;
+    padding: 30px;
+
+    input, button, a {
+      margin: 10px;
+    }
+
+    a {
+      display: block;
+    }
+  }
+
+}
+
+// header
+.header {
+  background-color: $blue;
+  color: $white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    all:unset;
+  }
+
+  .link {
+    color: $white;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+
+  .left {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+//bike-card-div
+.bikes-wrapper {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(2,35%);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+// bike card
+
+.card {
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 15px;
+
+  .item {
+    font-weight: 800;
+    margin: 10px;
+  }
+}
+
+// filters
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 270px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.add-rating-div {
+  margin: auto;
+  padding: 20px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action-container{
+  display: flex;
+  width: 270px;
+  justify-content: space-evenly;
+}
+
+.alert-div{
+  width: 100%;
+  margin-left: 55%;
+}
