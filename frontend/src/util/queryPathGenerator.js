@@ -11,3 +11,7 @@ export const queryPath = (payload) => {
   const path = pathMaker.filter((el) => el).join("&");
   return path;
 };
+
+export const tryCatcher = () => {
+  
+}
